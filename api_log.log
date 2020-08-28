@@ -1,0 +1,684 @@
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1733
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:204> exception=RuntimeError('asyncio.run() cannot be called from a running event loop')>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 214, in event_loop
+    await asyncio.run(api.server())
+  File "D:\Anaconda\envs\Unicorn\lib\asyncio\runners.py", line 34, in run
+    "asyncio.run() cannot be called from a running event loop")
+RuntimeError: asyncio.run() cannot be called from a running event loop
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1733
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:204> exception=RuntimeError('asyncio.run() cannot be called from a running event loop')>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 215, in event_loop
+    await asyncio.run(api.server())
+  File "D:\Anaconda\envs\Unicorn\lib\asyncio\runners.py", line 34, in run
+    "asyncio.run() cannot be called from a running event loop")
+RuntimeError: asyncio.run() cannot be called from a running event loop
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1733
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запуск сервера
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Запуск сервера
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:204> exception=OSError(10048, "error while attempting to bind on address ('::1', 8080, 0, 0): обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)")>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 213, in event_loop
+    await asyncio.gather(api.server())
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 135, in server
+    await site.start()
+  File "D:\Anaconda\envs\Unicorn\lib\site-packages\aiohttp\web_runner.py", line 104, in start
+    reuse_port=self._reuse_port)
+  File "D:\Anaconda\envs\Unicorn\lib\asyncio\base_events.py", line 1389, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('::1', 8080, 0, 0): обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1733
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:206> exception=TypeError("function missing required argument 'year' (pos 1)")>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 214, in event_loop
+    a = timer()
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 204, in timer
+    return datetime().now()
+TypeError: function missing required argument 'year' (pos 1)
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:206> exception=TypeError("function missing required argument 'year' (pos 1)")>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 214, in event_loop
+    a = timer()
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 204, in timer
+    return datetime().now()
+TypeError: function missing required argument 'year' (pos 1)
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:205> exception=TypeError("function missing required argument 'year' (pos 1)")>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 213, in event_loop
+    a = timer()
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 203, in timer
+    return datetime().now()
+TypeError: function missing required argument 'year' (pos 1)
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запуск сервера
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1735
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запуск сервера
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Запуск сервера
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:208> exception=OSError(10048, "error while attempting to bind on address ('127.0.0.1', 8080): обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)")>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 221, in event_loop
+    await asyncio.gather(api.server())
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 139, in server
+    await site.start()
+  File "D:\Anaconda\envs\Unicorn\lib\site-packages\aiohttp\web_runner.py", line 104, in start
+    reuse_port=self._reuse_port)
+  File "D:\Anaconda\envs\Unicorn\lib\asyncio\base_events.py", line 1389, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('127.0.0.1', 8080): обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:58:38 +0000] "POST /modify HTTP/1.1" 200 183 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:08 +0000] "POST /modify HTTP/1.1" 200 184 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:09 +0000] "POST /modify HTTP/1.1" 200 184 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:10 +0000] "POST /modify HTTP/1.1" 200 184 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:11 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:11 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:12 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:12 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:13 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:14 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:14 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:15 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:15 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:16 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:16 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:17 +0000] "POST /modify HTTP/1.1" 200 185 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Запрос на установку нового значания валют(-ы)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:16:59:33 +0000] "POST /amount/set HTTP/1.1" 200 191 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Проверка режима работы api
+DEBUG:asyncio:Using selector: SelectSelector
+WARNING:root:stat event_loop
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запуск сервера
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Запуск сервера
+ERROR:asyncio:Task exception was never retrieved
+future: <Task finished coro=<event_loop() done, defined at C:/Users/Norker/Desktop/Резюме/Unicorn/test.py:209> exception=OSError(10048, "error while attempting to bind on address ('::1', 8080, 0, 0): обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)")>
+Traceback (most recent call last):
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 222, in event_loop
+    await api.server()
+  File "C:/Users/Norker/Desktop/Резюме/Unicorn/test.py", line 140, in server
+    await site.start()
+  File "D:\Anaconda\envs\Unicorn\lib\site-packages\aiohttp\web_runner.py", line 104, in start
+    reuse_port=self._reuse_port)
+  File "D:\Anaconda\envs\Unicorn\lib\asyncio\base_events.py", line 1389, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('::1', 8080, 0, 0): обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсин нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсинг нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсинг нужных курсов валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+ERROR:root:division by zero
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+INFO:root:state no changed
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:run background tasks
+INFO:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:aiohttp.access:::1 [28/Aug/2020:20:33:29 +0000] "POST /modify HTTP/1.1" 200 196 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+ERROR:root:float division by zero
+ERROR:root:cannot unpack non-iterable NoneType object
+WARNING:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсинг курсов нужных валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+INFO:root:state no changed
+WARNING:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсинг курсов нужных валют
+DEBUG:root:Отслеживание изменений состояния счета
+INFO:root:state no changed
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:asyncio:Using selector: SelectSelector
+DEBUG:root:run background tasks
+WARNING:root:Запрос курсов валют
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.cbr-xml-daily.ru:443
+DEBUG:urllib3.connectionpool:https://www.cbr-xml-daily.ru:443 "GET /daily_json.js HTTP/1.1" 200 1734
+DEBUG:root:Парсинг курсов нужных валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+INFO:root:Запрос общей информации
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+ERROR:aiohttp.server:Error handling request
+Traceback (most recent call last):
+  File "D:\Anaconda\envs\Unicorn\lib\site-packages\aiohttp\web_protocol.py", line 418, in start
+    resp = await task
+  File "D:\Anaconda\envs\Unicorn\lib\site-packages\aiohttp\web_app.py", line 458, in _handle
+    resp = await handler(request)
+  File "test.py", line 201, in get_amount
+    debug(await request.json(), response)
+  File "D:\Anaconda\envs\Unicorn\lib\site-packages\aiohttp\web_request.py", line 584, in json
+    return loads(body)
+  File "D:\Anaconda\envs\Unicorn\lib\json\__init__.py", line 348, in loads
+    return _default_decoder.decode(s)
+  File "D:\Anaconda\envs\Unicorn\lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "D:\Anaconda\envs\Unicorn\lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+INFO:aiohttp.access:::1 [28/Aug/2020:21:38:38 +0000] "GET /amount/get HTTP/1.1" 500 244 "-" "PostmanRuntime/7.26.3"
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:root:run background tasks
+WARNING:root:Запрос курсов валют
+DEBUG:root:Парсинг курсов нужных валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+INFO:root:Запрос валюты rub
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос валюты usd
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос валюты eur
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос общей информации
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Запуск сервера
+DEBUG:root:run background tasks
+WARNING:root:Запрос курсов валют
+DEBUG:root:Парсинг курсов нужных валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+INFO:root:Запрос валюты rub
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос валюты usd
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос валюты eur
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос общей информации
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос на установку нового значания валют(-ы)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос общей информации
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос на изменение значения валют(-ы) на некоторое(-ые) значение(-ия)
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+INFO:root:Запрос общей информации
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
+DEBUG:root:Проверка режима работы api
+DEBUG:root:Добавление text/plain
+WARNING:root:Запрос курсов валют
+DEBUG:root:Парсинг курсов нужных валют
+DEBUG:root:Отслеживание изменений состояния счета
+DEBUG:root:Консольный вывод
+DEBUG:root:Вывод основной информации
+DEBUG:root:Расчет суммы средств
